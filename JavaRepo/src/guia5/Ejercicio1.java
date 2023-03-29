@@ -1,5 +1,5 @@
 
-package Guia5;
+package guia5;
 /*
 
 Realizar un algoritmo que llene un vector con los 100 primeros números enteros
