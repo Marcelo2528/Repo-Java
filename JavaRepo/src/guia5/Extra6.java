@@ -40,11 +40,13 @@ Nota: Para resolver el ejercicio deberá investigar cómo se utilizan las siguie
             }
             
         }
+        
         do{
             
-            System.out.println("Ingrese una palabra entre 3 y 5 caracteres");
+            System.out.println("Ingrese una palabra (de 3 a 5 caracteres): Pal-"+(cant+1));
             do {    
                 frase = leer.nextLine();
+                if (frase.length()<3 || frase.length()>5) System.out.println("Error, ingrese nuevamente");
             }while(frase.length()<3 || frase.length()>5);
             
             fila=(int)(Math.random()*20);
